@@ -20,6 +20,37 @@ To get started you need to download/clone the repository, and execute `npm i` in
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 
+## Files
+
+`app.js`- App's entry point.
+
+`commands/*`- Commands' specification.
+
+`model/*` - Mocked data & some useful functions to perform actions on data.
+
+## Execution
+
+### Development
+```sh
+npm run development
+```
+
+### List courses
+```
+node app
+```
+
+### Inscription of course
+Using short names
+```sh
+node app inscribir -c <courseId> -n <name_person> -i <id_person>
+```
+
+Using long names
+```sh
+node app inscribir --courseId <courseId> --name <name_person> -id <id_person>
+```
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/leonplondon/tdea-deliverables/tags). 

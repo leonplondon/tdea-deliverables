@@ -1,0 +1,33 @@
+{
+  "name": "tdea-deliverables",
+  "version": "1.0.0",
+  "description": "First deliverable for the TDEA course",
+  "main": "app.js",
+  "scripts": {
+    "development": "npx nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonplondon/tdea-deliverables.git"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "darkgod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonplondon/tdea-deliverables/issues"
+  },
+  "homepage": "https://github.com/leonplondon/tdea-deliverables#readme",
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "1.18.10"
+  },
+  "dependencies": {
+    "yargs": "13.2.2"
+  }
+}
