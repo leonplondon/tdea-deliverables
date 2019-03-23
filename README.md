@@ -9,7 +9,7 @@ To get started you need to download/clone the repository, and execute `npm i` in
 ## Branches
 
 * [Deliverable #1](https://github.com/leonplondon/tdea-deliverables/tree/deliverable%231)
-
+* [Bonus deliverable #1](https://github.com/leonplondon/tdea-deliverables/tree/deliverable%231-bonus%231)
 
 ### Prerequisites
 
